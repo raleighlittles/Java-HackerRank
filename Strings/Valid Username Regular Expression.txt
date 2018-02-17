@@ -1,0 +1,8 @@
+
+class UsernameValidator {
+    /*
+     * Write regular expression here.
+     */
+    // Starts with only a letter (no number), is at least 8 long but shorter than 30
+    public static final String regularExpression = "^[a-zA-Z]\\w{7,29}$";
+}

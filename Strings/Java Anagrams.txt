@@ -1,0 +1,8 @@
+    static boolean isAnagram(String a, String b) {
+        // Complete the function
+        char[] A1 = a.toUpperCase().toCharArray();
+        char[] B1 = b.toUpperCase().toCharArray();
+        Arrays.sort(A1);
+        Arrays.sort(B1);
+        return Arrays.equals(A1, B1);
+    }
